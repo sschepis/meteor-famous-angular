@@ -1,6 +1,6 @@
 {
   "name": "splendsome",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "authors": [
     "J. Bruni <contato@jbruni.com.br>"
   ],
@@ -20,8 +20,5 @@
     "vendor",
     "test",
     "tests"
-  ],
-  "dependencies": {
-    "famous-angular": "0.0.11"
-  }
+  ]
 }
