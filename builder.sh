@@ -1,4 +1,3 @@
 #!/bin/sh
 bower install
-mkdir -p dist
-cat bower_components/famous-angular/dist/famous-angular.js splendsome.js > dist/meteor-famous-angular.js
+cat bower_components/famous-angular/dist/famous-angular.js splendsome.inc > meteor-famous-angular.js
