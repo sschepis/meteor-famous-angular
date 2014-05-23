@@ -1,0 +1,12 @@
+{
+  "name": "splendsome",
+  "description": "Seamless Famous animations in any device and super-heroic AngularJS front-end MVW framework in your Meteor realtime distributed app",
+  "homepage": "http://splendsome.com",
+  "author": "J. Bruni <contato@jbruni.com.br>",
+  "version": "0.0.5",
+  "git": "https://github.com/Splendsome/meteor-famous-angular.git",
+  "packages": {
+    "ngMeteor": "0.1.22",
+    "famono": "0.2.2"
+  }
+}

@@ -29,13 +29,43 @@ some things are expected to change as they move forward.
 2. Install [Meteor](http://docs.meteor.com/#quickstart) <code>curl https://install.meteor.com | /bin/sh</code>
 3. Install [Meteorite](https://github.com/oortcloud/meteorite#installing-meteorite) <code>npm install -g meteorite</code>
 4. Create a new meteor app using <code>meteor create myapp</code> or navigate to the root of your existing app.
-5. Add [ngMeteor](https://atmospherejs.com/package/ngMeteor) package <code>mrt add ngMeteor</code>
-6. Add [famono](https://atmospherejs.com/package/famono) package <code>mrt add famono</code>
+5. Add [splendsome](https://atmospherejs.com/package/splendsome) package <code>mrt add splendsome</code>
 
 ## Running (using Splendsome in your Meteor app)
 
-Having a Meteor app with ngMeteor and famono packages included, you can require Splendsome at any point of your client-side code:
+To unleash the power of this fantastic combo, you need to:
 
-    require("splendsome");
+- Use the angular module `famous.angular` as a dependency of your own angular module
+- Push your module into ngMeteor
 
-Famono will install Famo.us/Angular and make it available for your app automatically (even in a live reload).
+Super easy:
+
+    if (Meteor.isClient) {
+
+      angular.module('myModule', ['famous.angular']);
+    
+      ngMeteor.requires.push('myModule');
+    
+    }
+
+And you can start coding like this right away in your templates:
+
+    <template name="hello">
+
+      <h1>Hello World!</h1>
+      <p>{{ greeting }}</p>
+
+      <input ng-model="text" />
+      <p>[[ text ]]</p>
+
+      <fa-app style="height: 200px"><fa-surface fa-background-color="'red'">Hello world</fa-surface></fa-app>
+
+    </template>
+
+In this example you have:
+
+1. a common Blaze / Spacebars live data template ([read more](http://docs.meteor.com/#livehtmltemplates))
+2. a simple usage of ngModel directive providing 2-way data binding ([read more](https://github.com/loneleeandroo/ngMeteor/#new-data-binding-to-avoid-conflict))
+3. a Famo.us/Angular Surface directive with 'Hello world' on a red background ([read more](http://famo.us/integrations/angular/docs/api/))
+
+## Have fun!
