@@ -3,7 +3,7 @@
   "description": "Famo.us/Angular package for Meteor - Seamless Famo.us animations in any device and super-heroic AngularJS front-end MVW framework in your Meteor realtime distributed app",
   "homepage": "http://splendsome.com",
   "author": "J Bruni <contato@jbruni.com.br>",
-  "version": "0.0.5",
+  "version": "0.0.12",
   "git": "https://github.com/Splendsome/meteor-famous-angular.git",
   "packages": {
     "ngMeteor": "0.1.22",
