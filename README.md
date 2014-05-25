@@ -28,8 +28,10 @@ some things are expected to change as they move forward.
 1. Install [git](http://git-scm.com/downloads) <code>sudo apt-get install npm</code> in Debian/Ubuntu or [follow their instructions](http://git-scm.com/downloads)
 2. Install [Meteor](http://docs.meteor.com/#quickstart) <code>curl https://install.meteor.com | /bin/sh</code>
 3. Install [Meteorite](https://github.com/oortcloud/meteorite#installing-meteorite) <code>npm install -g meteorite</code>
-4. Create a new meteor app using <code>meteor create myapp</code> or navigate to the root of your existing app.
-5. Add [splendsome](https://atmospherejs.com/package/splendsome) package <code>mrt add splendsome</code>
+4. Create a new meteor app using <code>meteor create myapp</code> and/or navigate to the root of your new/existing app.
+5. Add [ngMeteor](https://atmospherejs.com/package/ngMeteor) package <code>mrt add ngMeteor</code>
+6. Add [famono](https://atmospherejs.com/package/famono) package <code>mrt add famono</code>
+7. Add [splendsome](https://atmospherejs.com/package/splendsome) package <code>mrt add splendsome</code>
 
 ## Running (using Splendsome in your Meteor app)
 
