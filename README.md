@@ -41,14 +41,11 @@ To unleash the power of this fantastic combo, you need to:
 
 Super easy:
 
-    if (Meteor.isClient) {
-
+    if (Meteor.isClient)
+    {
       require('splendsome');
-    
       angular.module('myModule', ['famous.angular']);
-    
       ngMeteor.requires.push('myModule');
-    
     }
 
 And you can start coding like this right away in your templates:
@@ -61,7 +58,11 @@ And you can start coding like this right away in your templates:
       <input ng-model="text" />
       <p>[[ text ]]</p>
 
-      <fa-app style="height: 200px"><fa-surface fa-background-color="'red'" fa-size="[108, 108]">Hello world</fa-surface></fa-app>
+      <fa-app style="height: 200px">
+          <fa-surface fa-background-color="'red'" fa-size="[108, 108]">
+              Hello world
+          </fa-surface>
+      </fa-app>
 
     </template>
 
