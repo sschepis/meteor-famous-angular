@@ -2,9 +2,9 @@
   "name": "splendsome",
   "version": "0.0.5",
   "authors": [
-    "J. Bruni <contato@jbruni.com.br>"
+    "J Bruni <contato@jbruni.com.br>"
   ],
-  "description": "Seamless Famous animations in any device and super-heroic AngularJS front-end MVW framework in your Meteor realtime distributed app",
+  "description": "Seamless Famo.us animations in any device and super-heroic AngularJS front-end MVW framework in your Meteor realtime distributed app",
   "main": "index.js",
   "keywords": [
     "Famo.us",
