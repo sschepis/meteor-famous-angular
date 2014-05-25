@@ -35,6 +35,7 @@ some things are expected to change as they move forward.
 
 To unleash the power of this fantastic combo, you need to:
 
+- Require `splendsome`
 - Use the angular module `famous.angular` as a dependency of your own angular module
 - Push your module into ngMeteor
 
@@ -42,6 +43,8 @@ Super easy:
 
     if (Meteor.isClient) {
 
+      require('splendsome');
+    
       angular.module('myModule', ['famous.angular']);
     
       ngMeteor.requires.push('myModule');
@@ -58,7 +61,7 @@ And you can start coding like this right away in your templates:
       <input ng-model="text" />
       <p>[[ text ]]</p>
 
-      <fa-app style="height: 200px"><fa-surface fa-background-color="'red'">Hello world</fa-surface></fa-app>
+      <fa-app style="height: 200px"><fa-surface fa-background-color="'red'" fa-size="[108, 108]">Hello world</fa-surface></fa-app>
 
     </template>
 

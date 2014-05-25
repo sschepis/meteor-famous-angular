@@ -3,5 +3,9 @@ Package.describe({
 });
 
 Package.on_use(function(api) {
-    api.add_files('index.js', 'client');
+    api.use('ngMeteor');
+    api.use('famono');
+
+    api.add_files('famous-angular.css', 'client');
+    api.add_files('requirements.js', 'client');
 });
