@@ -25,7 +25,7 @@ some things are expected to change as they move forward.
 
 ## Quick start
 
-1. Install [git](http://git-scm.com/downloads) <code>sudo apt-get install npm</code> in Debian/Ubuntu or [follow their instructions](http://git-scm.com/downloads)
+1. Install [git](http://git-scm.com/downloads) <code>sudo apt-get install git</code> in Debian/Ubuntu or [follow their instructions](http://git-scm.com/downloads)
 2. Install [Meteor](http://docs.meteor.com/#quickstart) <code>curl https://install.meteor.com | /bin/sh</code>
 3. Install [Meteorite](https://github.com/oortcloud/meteorite#installing-meteorite) <code>npm install -g meteorite</code>
 4. Create a new meteor app using <code>meteor create myapp</code> and/or navigate to the root of your new/existing app.
